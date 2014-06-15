@@ -108,3 +108,8 @@ tapply(meanDay$steps,meanDay$day_type,
       )
 ```
 
+<sub><sup>
+*Some credit should go to*
+<https://raw.githubusercontent.com/aravind-ds/RepData_PeerAssessment1/master/PA1_template.Rmd>
+</sup></sub>
+

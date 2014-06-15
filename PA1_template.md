@@ -159,3 +159,8 @@ tapply(meanDay$steps,meanDay$day_type,
 ##   0.00 166.64  42.37  32.34
 ```
 
+<sub><sup>
+*Some credit should go to*
+<https://raw.githubusercontent.com/aravind-ds/RepData_PeerAssessment1/master/PA1_template.Rmd>
+</sup></sub>
+
