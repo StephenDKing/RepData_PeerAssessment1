@@ -84,7 +84,7 @@ intervalMaxStep
 ```
 ## [1] "835"
 ```
-The 835 minute  or  104th ** 5 minute interval contains the maximum number of steps on average across all the days.
+The 835 minute  or  104th 5 minute interval contains the maximum number of steps on average across all the days.
 
 ## Imputing missing values
 Compute the number of NA values in the activity dataset
