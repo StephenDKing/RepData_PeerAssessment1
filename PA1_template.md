@@ -114,6 +114,15 @@ sum(is.na(data)) # The number of NAs after imptation should be 0
 ## [1] 0
 ```
 
+Plot histogram of total number of steps per day again
+
+```r
+hist(totalStepPerDay,col="green",xlab="Total Steps per Day", 
+      ylab="Frequency", main="Histogram of Total Steps taken per day")
+```
+
+![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
+
 ## Are there differences in activity patterns between weekdays and weekends?
 
 
@@ -128,7 +137,7 @@ names(meanDay) <- c("interval","day_type","steps")
 xyplot(steps~interval | day_type, meanDay,type="l",layout=c(1,2),xlab="Interval",ylab = "Number of steps",col="green")
 ```
 
-![plot of chunk unnamed-chunk-13](figure/unnamed-chunk-13.png) 
+![plot of chunk unnamed-chunk-14](figure/unnamed-chunk-14.png) 
 
 Figure out the min, max, mean, median for steps over all intervals and days by weekdays or weekends
 

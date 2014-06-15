@@ -79,6 +79,12 @@ for (i in na_indices) {
 sum(is.na(data)) # The number of NAs after imptation should be 0
 ```
 
+Plot histogram of total number of steps per day again
+```{r}
+hist(totalStepPerDay,col="green",xlab="Total Steps per Day", 
+      ylab="Frequency", main="Histogram of Total Steps taken per day")
+```
+
 ## Are there differences in activity patterns between weekdays and weekends?
 
 ```{r}
